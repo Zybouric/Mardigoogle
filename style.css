@@ -22,6 +22,7 @@ li
 
 .logo
 {
+	padding-top: 15px;
 	display: flex;
 	justify-content: center
 }
@@ -29,7 +30,7 @@ li
 {
 	background: rgb(72,133,237);
 	color: white ;
-	padding: 15px;
+	padding: 10px;
 	margin-left: -125px;
 }
 .gmail
@@ -41,4 +42,33 @@ li
 {
 	display: flex;
 	justify-content: center;
+}
+.searchbar
+{
+	height: 40px;
+	padding-top: 15px;
+	display: flex;
+	justify-content: center;
+	box-sizing: content-box;
+
+}
+
+.searchbutton
+{
+	margin: 20px;
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+	background: rgb(255,255,255);
+
+}
+
+.language
+{
+	margin: 20px;
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+	background: rgb(255,255,255);
+
 }
