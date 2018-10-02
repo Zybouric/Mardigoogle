@@ -1,9 +1,44 @@
-p
+nav
 {
-	color: red;
+	padding: 10px
 }
 
-body
+ul
 {
-	background-color:black;
+	color: black;
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	margin:0;
+	padding: 0
+}
+li
+{
+	margin-left: 20px;
+	float:left;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo
+{
+	display: flex;
+	justify-content: center
+}
+.Connexion
+{
+	background: rgb(72,133,237);
+	color: white ;
+	padding: 15px;
+	margin-left: -125px;
+}
+.gmail
+{
+	display: flex;
+	justify-content: center;
+}
+.images
+{
+	display: flex;
+	justify-content: center;
 }
